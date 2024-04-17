@@ -8,9 +8,15 @@
   border: 1px solid #00d0ff;
   height: 600px;
   text-align: center;
+  caret-color: transparent;
   /* font-family: Rubik, 'sans-serif'; */
 }
 
+btn-3:hover {
+  background: #ff96ad;
+  box-shadow: 0 0 5px #ff96ad, 9 0 25px #ff96ad, 0 0 50px #ff96ad, 9 9 200px #ff96ad;
+}
+  
 #earlybirdround {
   padding-top: 20px;
   font-size: 36px;
@@ -89,6 +95,7 @@
   border: #185FCC 1px solid !important;
   z-index: 10;
   border: none;
+  caret-color: black;
 }
 
 .presaleform__max {
@@ -102,6 +109,7 @@
   z-index: 11;
   border-radius: 8px;
   border: black 2px solid;
+  caret-color: transparent;
 }
 
 .presaleform__min {
@@ -115,6 +123,7 @@
   z-index: 11;
   border-radius: 8px;
   border: black 2px solid;
+  caret-color: transparent;
 }
 
 .presaleform__label {
@@ -147,10 +156,12 @@
 }
 
 .presaleform__buynowbtn:hover {
-  background-color: transparent !important;
-  border: #185fcc 2px solid;
-  color: #185fcc;
+  background: #ff96ad !important;
+  box-shadow: 0 0 5px #ff96ad, 9 0 25px #ff96ad, 0 0 50px #ff96ad, 9 9 200px #ff96ad;
   transition: 0.1s ease-in-out;
+}
+.presaleform__buynowbtn:disabled {
+  background-color: transparent !important;
 }
 
 @media (max-width: 1400px) {

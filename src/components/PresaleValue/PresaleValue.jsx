@@ -7,7 +7,7 @@ const PresaleValue = () => {
 
         <div className="presalevalue__fullinput">
           <input type='number' className='presalevalue__input' name="usdc-input"></input>
-          <label className='presalevalue__label' htmlFor="usdc-input">SOON</label>
+          <label className='presalevalue__label' htmlFor="usdc-input">BANDY</label>
         </div>
 
         <div className='presalevalue__usd'>USD<br></br>$1000</div>
